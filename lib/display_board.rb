@@ -5,12 +5,11 @@ def display_board(board)
   cell = "   "
   row = "#{cell}|#{cell}|#{cell}"
   dash = "-----------"
-  puts "#{board[0]} | #{board[1]} | #{board[2]}"
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts dash
-  puts "#{board[3]} | #{board[4]} | #{board[5]}"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts dash
-  puts "#{board[6]} | #{board[7]} | #{board[8]}"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
 
 display_board(board)
