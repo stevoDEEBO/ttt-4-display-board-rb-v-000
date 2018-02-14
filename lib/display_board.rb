@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board
+def display_board(board)
   cell = "   "
   row = "#{cell}|#{cell}|#{cell}"
   dash = "-----------"
@@ -9,6 +9,8 @@ def display_board
   puts row
   puts dash
   puts row
+
+  
 end
 
 
