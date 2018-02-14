@@ -5,13 +5,14 @@ def display_board(board)
   cell = "   "
   row = "#{cell}|#{cell}|#{cell}"
   dash = "-----------"
-  puts row
+  puts "#{board[0]} | #{board[1]} | #{board[2]}"
   puts dash
   puts row
   puts dash
   puts row
 
-  
+
+
 end
 
 
